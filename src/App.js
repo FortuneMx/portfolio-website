@@ -1,5 +1,6 @@
 import Home from "./components/homepage-section/Home";
 import Navbar from "./components/navigation-section/Navbar";
+import Projects from "./components/projects-section/Projects";
 
 const App = () => { 
 
@@ -7,7 +8,8 @@ const App = () => {
     <div className="App">
       <Navbar/>      
       <div className="content">
-       <Home/> 
+        <Home/>
+        <Projects/>
       </div>
     </div>
   
