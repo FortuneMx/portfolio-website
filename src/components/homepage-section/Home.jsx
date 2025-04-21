@@ -9,7 +9,7 @@ import TopLeftSection from "./TopLeftSection";
 const Homepage = () => { 
 
     return (
-        <section className="homepage">
+        <section className="home" id="home">
             <TopLeftSection/>
             <BottomRightSection/>            
         </section>     
