@@ -1,0 +1,44 @@
+/* these are the general styles of the sticky note */
+
+div.sticky-note {
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.note {
+    box-sizing: border-box;
+    box-shadow: 0 18px 25px rgba(0, 0, 0, 0.8);
+    position: relative;
+    width: 287px;
+    height: 239px;
+    bottom: 50px;
+    background: linear-gradient(0deg, #ffaa0799, #ffaa0799), url('../../assets/images/background-images/paper-background.jpg');
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+div.tape {
+    background: rgba(255, 248, 231, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    height: 100px;
+    width: 50px;
+}
+
+div.note img.logo {
+    margin-top: 60px;
+}
+
+div.note p.sticky-note-text {
+    text-align: center;
+    -webkit-text-stroke-color: #494949;
+    -webkit-text-stroke-width: 1px;
+    color: #494949;
+
+}
+
+div.note img.logo {}

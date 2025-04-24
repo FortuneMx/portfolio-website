@@ -5,8 +5,9 @@
 
 import BottomRightSection from "./BottomRightSection";
 import TopLeftSection from "./TopLeftSection";
+import './styles.css';
 
-const Homepage = () => { 
+const Home = () => { 
 
     return (
         <section className="home" id="home">
@@ -16,5 +17,5 @@ const Homepage = () => {
     );
   }
   
-  export default Homepage; 
+  export default Home; 
   

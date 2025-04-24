@@ -1,0 +1,126 @@
+/* these styles are specific to the homepage section of the website */
+/* target screen size is 320 up*/
+/* these are the styles for the topleft section of the homepage */
+section.top-left-section {
+    border: 2px solid red;
+    /* height: 100vh; */
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #fff8e7, #99958B);
+}
+
+img.girl-coding-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+img.thinking-cloud {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    position: relative;
+    top: 60px;
+    padding: 5px;
+}
+
+div.header-section {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+div.intro-text-container {
+    /* border: 2px solid orange; */
+    position: absolute;
+    top: 60px;
+    width: 60%;
+    margin: 10% 15%;
+    text-align: center;
+}
+
+div.intro-text-container h3.intro-heading {
+    font-family: 'Coiny';
+    -webkit-text-stroke-color: #ffaa07;
+    -webkit-text-stroke-width: 1px;
+    color: transparent;
+    opacity: 0.8;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 35px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+div.intro-text-container p.intro-text {
+    color: #fff8e7;
+    text-align: center;
+}
+
+/* add media queries for the topleft section of the homepage here */
+
+/* styles for the bottom right section of the homepage */
+section.bottom-right-section {
+    border: 2px solid blue;
+    /* height: 100vh; */
+    background-color: #494949;
+    color: #fff8e7;
+    display: flex;
+    flex-direction: column;
+
+}
+
+div.description-container {
+    border: 2px solid yellow;
+    position: absolute;
+    /* bottom: 115px; */
+    padding: 10px;
+    width: 90%;
+}
+
+div.ideas-text-container {
+    /* border: 2px solid pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+div.ideas-text-container span.ideas-text {
+    position: absolute;
+    /* border: 2px solid white; */
+    font-family: 'Coiny';
+    color: #FFD54F;
+}
+
+div.ideas-text-container img {
+    width: 95px;
+    height: 95px;
+}
+
+div.container {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-top: 10px;
+}
+
+div.journal-lines {
+    border: 2px solid orange;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.journal-lines hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #FFF8E7;
+    opacity: 0.2;
+}
