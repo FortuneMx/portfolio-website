@@ -1,6 +1,6 @@
 section.my-projects {
     border: 2px solid green;
-    background: linear-gradient(0deg, #FFC65930, #FFC65930), url('../../assets/images/background-images/paper-background.jpg');
+    background: linear-gradient(0deg, #FFaa0730, #FFaa0730), url('../../assets/images/background-images/paper-background.jpg');
     background-size: contain;
     color: #494949;
 }
@@ -13,6 +13,8 @@ div.all-projects {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    /* border: 2px solid slateblue; */
+    margin-bottom: 50px;
 }
 
 div.project-card {
