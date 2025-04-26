@@ -1,0 +1,112 @@
+section.my-projects {
+    border: 2px solid green;
+    background: linear-gradient(0deg, #FFC65930, #FFC65930), url('../../assets/images/background-images/paper-background.jpg');
+    background-size: contain;
+    color: #494949;
+}
+
+section.my-projects h2 {
+    text-align: center;
+}
+
+div.all-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+div.project-card {
+    /* border: 2px solid #494949; */
+    text-align: center;
+    background: linear-gradient(0deg, #fff8e790, #fff8e790), url('../../assets/images/background-images/paper-background.jpg');
+    background-size: contain;
+    border-radius: 10px;
+    width: 95%;
+    margin: 0 2.5%;
+    /* height: 400px; */
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+}
+
+div.push-pins {
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.push-pin {
+    border: 1px solid #FF5E7A;
+    background-color: #FF5E7A;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 10px
+}
+
+h3.project-title {
+    font-family: 'Coiny';
+    font-size: 1.5em;
+    margin: 10px;
+    letter-spacing: 1px;
+}
+
+p.project-description {
+    line-height: 30px;
+    margin: 0;
+}
+
+ul.technologies-used-container {
+    /* margin: 10px; */
+    width: 90%;
+    margin: 10px 5%;
+    padding: 0;
+    display: flex;
+    gap: 5px;
+    font-family: 'Coiny';
+    justify-content: space-around;
+    color: #FFAA07;
+    /* letter-spacing: 1px; */
+    font-size: 1em;
+
+
+}
+
+ul.technologies-used-container li {
+    list-style: none;
+}
+
+svg.projects-button-border {
+    stroke: #FFC1CC;
+    /* z-index: 1; */
+}
+
+div.buttons-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* border: 2px solid red; */
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+button.view-button,
+button.github-button {
+    border: none;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    font-family: 'Hachi Maru Pop';
+    -webkit-text-stroke-color: #FF5E7A;
+    -webkit-text-stroke-width: 1px;
+    color: #FF5E7A;
+    font-size: 1.2em;
+    cursor: pointer;
+}
