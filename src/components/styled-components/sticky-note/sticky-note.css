@@ -1,7 +1,7 @@
 /* these are the general styles of the sticky note */
 
 div.sticky-note {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,8 +13,8 @@ div.note {
     position: relative;
     width: 287px;
     height: 239px;
-    bottom: 50px;
-    background: linear-gradient(0deg, #ffaa0799, #ffaa0799), url('../../assets/images/background-images/paper-background.jpg');
+    bottom: 40px;
+    background: linear-gradient(0deg, #ffaa0799, #ffaa0799), url('../../../assets/images/background-images/paper-background.jpg');
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -28,17 +28,3 @@ div.tape {
     height: 100px;
     width: 50px;
 }
-
-div.note img.logo {
-    margin-top: 60px;
-}
-
-div.note p.sticky-note-text {
-    text-align: center;
-    -webkit-text-stroke-color: #494949;
-    -webkit-text-stroke-width: 1px;
-    color: #494949;
-
-}
-
-div.note img.logo {}

@@ -3,7 +3,6 @@
 /* these are the styles for the topleft section of the homepage */
 section.top-left-section {
     border: 2px solid red;
-    /* height: 100vh; */
     display: flex;
     gap: 0;
     flex-direction: column;
@@ -62,25 +61,29 @@ div.intro-text-container p.intro-text {
     text-align: center;
 }
 
-/* add media queries for the topleft section of the homepage here */
-
 /* styles for the bottom right section of the homepage */
 section.bottom-right-section {
     border: 2px solid blue;
     /* height: 100vh; */
     background-color: #494949;
     color: #fff8e7;
-    display: flex;
-    flex-direction: column;
+}
 
+div.description-container p {
+    margin: 0;
 }
 
 div.description-container {
-    border: 2px solid yellow;
-    position: absolute;
-    /* bottom: 115px; */
-    padding: 10px;
-    width: 90%;
+    /* border: 2px solid yellow; */
+    border-top: 1px solid rgba(255, 248, 231, 0.2);
+    /* border-bottom: 1px solid rgba(255, 248, 231, 0.2); */
+    width: 95%;
+    margin: 50px 2.5%;
+    background-image: repeating-linear-gradient(to bottom,
+            transparent,
+            transparent 2.7em,
+            rgba(255, 248, 231, 0.2) 2.8em,
+            rgba(255, 248, 231, 0.2) 2.7em);
 }
 
 div.ideas-text-container {
@@ -112,15 +115,106 @@ div.container {
     margin-top: 10px;
 }
 
-div.journal-lines {
-    border: 2px solid orange;
-    padding-left: 10px;
-    padding-right: 10px;
+/* styles for the sticky note that goes on the bottomright section */
+div.sticky-note.home-sticky-note {
+    /* border: 2px solid green; */
+    position: relative;
+    top: 20px;
+
 }
 
-div.journal-lines hr {
-    margin-top: 50px;
+div.sticky-note.home-sticky-note div.note {
+    width: 120px;
+    height: 90px;
+}
+
+div.sticky-note.home-sticky-note div.note p.sticky-note-text {
+    font-family: 'Coiny';
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+div.sticky-note.home-sticky-note div.tape {
+    font-family: 'Coiny';
+    height: 45px;
+    width: 30px;
+    position: relative;
+    bottom: 15px;
+
+}
+
+div.container-two {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+div.note img.logo {
+    margin-top: 25px;
+    height: 30px;
+    width: 50px;
+}
+
+div.note p.sticky-note-text {
+    text-align: center;
+    -webkit-text-stroke-color: #494949;
+    -webkit-text-stroke-width: 1px;
+    color: #494949;
+    margin: 0;
+    margin-top: 5px;
+
+}
+
+/* end of sticky note styles */
+
+/*  styles for the text on the bottom right section*/
+span.i-like-text {
+    color: #FF5E7A;
+}
+
+span.transforming-text {
+    background: linear-gradient(to right, #FFAA07, #FFFFE0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-size: clamp(1.3em, 5vw + 0.5em, 5em);
+}
+
+span.code-text {
+    font-size: clamp(1.3em, 5vw + 0.5em, 5em);
+    color: #FFD54F;
+}
+
+/* styles for the button in the bottom right section */
+div.button-container {
+    /* border: 2px solid red; */
     margin-bottom: 50px;
-    border: 1px solid #FFF8E7;
-    opacity: 0.2;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px 10%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+svg.home-section-button-border {
+    stroke: #fff8e7;
+    /* z-index: 1; */
+}
+
+button.resume-button {
+    border: none;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    font-family: 'Hachi Maru Pop';
+    -webkit-text-stroke-color: rgba(255, 170, 7, 0.5);
+    -webkit-text-stroke-width: 1px;
+    color: #fff8e7;
+    font-size: 1.4em;
+    cursor: pointer;
 }
