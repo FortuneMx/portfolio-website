@@ -18,6 +18,7 @@ div.note {
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-size: contain;
     /* justify-content: space-between; */
 }
 

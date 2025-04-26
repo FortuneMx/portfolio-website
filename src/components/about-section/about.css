@@ -1,0 +1,44 @@
+section.about-me {
+    border: 2px solid salmon;
+    background: linear-gradient(0deg, rgba(255, 248, 231, 0.5), rgba(255, 248, 231, 0.5)), url('../../assets/images/background-images/paper-background.jpg');
+    background-size: contain;
+    background-color: #1a160d;
+    color: #494949;
+}
+
+section.about-me img {
+    width: 55px;
+    height: 57px;
+}
+
+div.journal-page {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 30px 2.5%;
+    line-height: 30px;
+}
+
+div.journal-page h2.about-heading {
+    text-align: center;
+    margin: 0;
+}
+
+div.journal-text {
+    text-align: center;
+}
+
+img.flower-two {
+    margin-left: auto;
+}
+
+span.fullstack-text,
+span.design-text {
+    /* border: 2px solid red; */
+    background-color: rgba(255, 170, 7, 0.3);
+}
+
+span.about-me-span {
+    color: #FF5E7A;
+}
