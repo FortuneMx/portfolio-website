@@ -218,3 +218,19 @@ button.resume-button {
     font-size: 1.4em;
     cursor: pointer;
 }
+
+/* media queries for the home section */
+@media (min-width: 720px) {
+    section.home {
+        display: flex;
+    }
+
+    section.bottom-right-section {
+        flex: 1;
+    }
+
+    section.top-left-section {
+        flex: 1;
+    }
+
+}
