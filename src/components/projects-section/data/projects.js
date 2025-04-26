@@ -2,7 +2,7 @@ export const projects = [
     {
         name:"Students Accommodation Finder",
         description:"A web application that connects students with landlords for housing.",
-        techUsed:["React", "Node js", "Express", "Mongo DB"],
+        techUsed:["React", "Node.js", "Express", "MongoDB"],
         images:[],
         projectUrl:"",
         githubRepoUrl:"",

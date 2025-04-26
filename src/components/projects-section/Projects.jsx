@@ -16,8 +16,8 @@ const Projects = () => {
                             </div>
                             <h3 className="project-title">{project.name}</h3>
                             <p className="project-description">{project.description}</p>
-                            {/* <h5>Technologies Used</h5> */}
-                            {/* <ul className="technologies-used-container">
+                            <h5>Technologies Used</h5>
+                            <ul className="technologies-used-container">
                             {
                                 project.techUsed.map(
                                     tech=>(
@@ -25,7 +25,7 @@ const Projects = () => {
                                     )
                                 )
                             }
-                            </ul> */}
+                            </ul>
                             <div className="buttons-container">
                                 <div className="button-container">
                                     <svg className="projects-button-border" viewBox="0 0 260 75" fill="none" xmlns="http://www.w3.org/2000/svg">

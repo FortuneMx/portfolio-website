@@ -49,10 +49,12 @@ div.push-pin {
 }
 
 h3.project-title {
-    font-family: 'Coiny';
+    /* font-family: 'Coiny'; */
     font-size: 1.5em;
     margin: 10px;
     letter-spacing: 1px;
+    -webkit-text-stroke-color: #494949;
+    -webkit-text-stroke-width: 2px;
 }
 
 p.project-description {
@@ -67,13 +69,14 @@ ul.technologies-used-container {
     padding: 0;
     display: flex;
     gap: 5px;
-    font-family: 'Coiny';
+    flex-wrap: wrap;
+    /* font-family: 'Coiny'; */
     justify-content: space-around;
     color: #FFAA07;
-    /* letter-spacing: 1px; */
-    font-size: 1em;
-
-
+    letter-spacing: 1px;
+    font-size: 0.7em;
+    -webkit-text-stroke-color: #FFAA07;
+    -webkit-text-stroke-width: 1px;
 }
 
 ul.technologies-used-container li {
@@ -95,7 +98,6 @@ div.buttons-container {
     margin-right: 5%;
 }
 
-
 button.view-button,
 button.github-button {
     border: none;
@@ -109,4 +111,10 @@ button.github-button {
     color: #FF5E7A;
     font-size: 1.2em;
     cursor: pointer;
+}
+
+div.project-card h5 {
+    -webkit-text-stroke-color: #494949;
+    -webkit-text-stroke-width: 1px;
+    margin-bottom: 0;
 }
