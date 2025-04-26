@@ -5,7 +5,7 @@
 
 import BottomRightSection from "./BottomRightSection";
 import TopLeftSection from "./TopLeftSection";
-import './styles.css';
+import './home.css';
 
 const Home = () => { 
 
