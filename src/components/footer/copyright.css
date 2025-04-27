@@ -1,0 +1,10 @@
+div.copyright-text {
+    border: 2px solid red;
+    font-size: 0.8em;
+    text-align: center;
+    -webkit-text-stroke-color: #494949;
+    -webkit-text-stroke-width: 1px;
+    color: #494949;
+    background: linear-gradient(0deg, #FFaa0730, #FFaa0730), url('../../assets/images/background-images/paper-background.jpg');
+    background-size: contain;
+}
