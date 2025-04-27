@@ -6,6 +6,17 @@ section.contact-me {
 
 }
 
+div.contact-section-container {
+    border-top: 1px solid rgba(255, 248, 231, 0.2);
+    width: 95%;
+    margin: 50px 2.5%;
+    background-image: repeating-linear-gradient(to bottom,
+            transparent,
+            transparent 2.7em,
+            rgba(255, 248, 231, 0.2) 2.8em,
+            rgba(255, 248, 231, 0.2) 2.7em);
+}
+
 /* div.contact-icons-container {
     border: 2px solid saddlebrown;
 } */
@@ -16,7 +27,14 @@ div.contact-icons-container ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+div.contact-icons-container img {
+    width: 40px;
+    height: auto;
 }
 
 div.contact-icons-container ul li {
